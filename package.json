@@ -3,7 +3,7 @@
   "description": "Sample app for UI-Router for AngularJS",
   "version": "1.0.2",
   "scripts": {
-    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner",
+    "sonar-scanner": "/var/lib/jenkins/workspace/sonar-demo/node_modules/sonar-scanner/bin/sonar-scanner",
     "clean": "shx rm -rf _bundles transpiled",
     "start": "webpack-dev-server --progress --open",
     "build": "webpack",
